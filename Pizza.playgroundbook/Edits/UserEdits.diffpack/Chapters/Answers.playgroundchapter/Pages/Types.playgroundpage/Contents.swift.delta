@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Created on: sept, 25
+// Created by: fawaz mez
+// Created for: ICS3U
+// This program tells you how much the pizza costs by entering the diameter.
+
+show("Enter the diameter of the pizza that you want")
+
+let diameter = Float(askForNumber("enter diameter "))
+
+let pizzaCost = ((0.75 + 1) + (0.5 * diameter)) * 1.13
+    
+show("the cost is: \(pizzaCost)")
+
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{145, 356}</string>
+			<key>OriginalContent</key>
+			<string>// 1. Ask for a date
+show("What is your birthdate?")
+let birthdate = askForDate("Birthdate")
+
+// 2. Ask for a number
+show("What is your favorite number?")
+let number = askForNumber("Number")
+
+// 3. Ask for a choice from a set of options
+show("What is your favorite color?")
+let color = askForChoice("Color", options: ["Blue", "Green", "Orange", "Purple", "Red", "Yellow"])
+</string>
+			<key>OriginalRange</key>
+			<string>{145, 373}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Answers.playgroundchapter/Pages/Types.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
